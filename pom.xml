@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> remotes/origin/main
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
+		<version>3.3.8</version>
+		<relativePath /> <!-- lookup parent from repository -->
+=======
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
+>>>>>>> remotes/origin/main
 	</parent>
 	<groupId>com.asyncdemo</groupId>
 	<artifactId>asyncdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>asyncDemo</name>
 	<description>Spring boot concept</description>
+<<<<<<< HEAD
+	<url />
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+
+=======
 	<url/>
 	<licenses>
 		<license/>
@@ -35,13 +53,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
+>>>>>>> remotes/origin/main
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+=======
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
+>>>>>>> remotes/origin/main
 		</dependency>
 
 		<dependency>
@@ -61,6 +85,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<<<<<<< HEAD
+=======
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -73,6 +99,7 @@
 		</dependencies>
 	</dependencyManagement>
 
+>>>>>>> remotes/origin/main
 	<build>
 		<plugins>
 			<plugin>
